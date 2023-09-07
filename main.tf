@@ -20,7 +20,7 @@ resource "aws_instance" "delete_me" {
   instance_type = "t2.micro"
 
   tags = {
-    Name    = "ExampleAppServerInstance"
+    Name    = "Delete_me"
     PROJECT = "TEMP"
     TODO    = "DELETE"
   }
